@@ -2,43 +2,53 @@
     "stories": [
         {
             "dpSrc": "/vercel.svg",
-            "storySrc": "/next.svg"
+            "storySrc": ["/next.svg", "/next.svg", "/next.svg", "/next.svg"],
+            "username": "Your Story"
         },
         {
             "dpSrc": "/vercel.svg",
-            "storySrc": "/next.svg"
+            "storySrc": ["/next.svg", "/next.svg"],
+            "username": "Candid"
         },
         {
             "dpSrc": "/vercel.svg",
-            "storySrc": "/next.svg"
+            "storySrc": ["/next.svg", "/next.svg", "/vercel.svg"],
+            "username": "name"
         },
         {
             "dpSrc": "/vercel.svg",
-            "storySrc": "/next.svg"
+            "storySrc": ["/next.svg", "/vercel.svg", "/next.svg", "/next.svg"],
+            "username": "name"
         },
         {
             "dpSrc": "/vercel.svg",
-            "storySrc": "/next.svg"
+            "storySrc": ["/next.svg", "/next.svg", "/next.svg", "/next.svg"],
+            "username": "name"
         },
         {
             "dpSrc": "/vercel.svg",
-            "storySrc": "/next.svg"
+            "storySrc": ["/next.svg", "/next.svg", "/next.svg", "/next.svg"],
+            "username": "name"
         },
         {
             "dpSrc": "/vercel.svg",
-            "storySrc": "/next.svg"
+            "storySrc": ["/next.svg", "/next.svg", "/next.svg", "/next.svg"],
+            "username": "name"
         },
         {
             "dpSrc": "/vercel.svg",
-            "storySrc": "/next.svg"
+            "storySrc": ["/next.svg", "/next.svg", "/next.svg", "/next.svg"],
+            "username": "name"
         },
         {
             "dpSrc": "/vercel.svg",
-            "storySrc": "/next.svg"
+            "storySrc": ["/next.svg", "/next.svg", "/next.svg", "/next.svg"],
+            "username": "name"
         },
         {
             "dpSrc": "/vercel.svg",
-            "storySrc": "/next.svg"
+            "storySrc": ["/next.svg", "/next.svg", "/next.svg", "/next.svg"],
+            "username": "name"
         }
     ]
 }

@@ -2,3 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+.progress{
+    animation: animate 5s linear forwards;
+}
+
+@keyframes animate{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 100%;
+    }
+}
