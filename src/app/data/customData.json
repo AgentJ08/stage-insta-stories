@@ -1,54 +1,54 @@
 {
     "stories": [
         {
-            "dpSrc": "/vercel.svg",
-            "storySrc": ["/next.svg", "/next.svg", "/next.svg", "/next.svg"],
+            "dpSrc": "/dps/1.jpg",
+            "storySrc": ["/stories/1.png", "/stories/2.jpg", "/stories/3.jpg", "/stories/4.webp"],
             "username": "Your Story"
         },
         {
-            "dpSrc": "/vercel.svg",
-            "storySrc": ["/next.svg", "/next.svg"],
+            "dpSrc": "/dps/2.jpg",
+            "storySrc": ["/stories/5.webp", "/stories/6.jpg"],
             "username": "Candid"
         },
         {
-            "dpSrc": "/vercel.svg",
-            "storySrc": ["/next.svg", "/next.svg", "/vercel.svg"],
-            "username": "name"
+            "dpSrc": "/dps/3.webp",
+            "storySrc": ["/stories/7.jpg", "/stories/8.jpg", "/stories/9.jpg"],
+            "username": "AgentJ"
         },
         {
-            "dpSrc": "/vercel.svg",
-            "storySrc": ["/next.svg", "/vercel.svg", "/next.svg", "/next.svg"],
-            "username": "name"
+            "dpSrc": "/dps/4.jpg",
+            "storySrc": ["/stories/10.jpg", "/stories/11.jpg", "/stories/12.jpg", "/stories/13.jpg"],
+            "username": "Rick"
         },
         {
-            "dpSrc": "/vercel.svg",
-            "storySrc": ["/next.svg", "/next.svg", "/next.svg", "/next.svg"],
-            "username": "name"
+            "dpSrc": "/dps/5.jpg",
+            "storySrc": ["/stories/14.jpg", "/stories/15.jpg", "/stories/16.jpg"],
+            "username": "Morty"
         },
         {
-            "dpSrc": "/vercel.svg",
-            "storySrc": ["/next.svg", "/next.svg", "/next.svg", "/next.svg"],
-            "username": "name"
+            "dpSrc": "/dps/6.webp",
+            "storySrc": ["/stories/17.jpg", "/stories/18.jpeg", "/stories/19.webp", "/stories/20.jpg"],
+            "username": "Summer"
         },
         {
-            "dpSrc": "/vercel.svg",
-            "storySrc": ["/next.svg", "/next.svg", "/next.svg", "/next.svg"],
-            "username": "name"
+            "dpSrc": "/dps/7.avif",
+            "storySrc": ["/stories/21.jpg", "/stories/22.jpg"],
+            "username": "Phineas"
         },
         {
-            "dpSrc": "/vercel.svg",
-            "storySrc": ["/next.svg", "/next.svg", "/next.svg", "/next.svg"],
-            "username": "name"
+            "dpSrc": "/dps/8.jpg",
+            "storySrc": ["/stories/23.webp"],
+            "username": "Ferb"
         },
         {
-            "dpSrc": "/vercel.svg",
-            "storySrc": ["/next.svg", "/next.svg", "/next.svg", "/next.svg"],
-            "username": "name"
+            "dpSrc": "/dps/9.jpeg",
+            "storySrc": ["/stories/24.jpg", "/stories/25.jpg", "/stories/26.webp"],
+            "username": "Candice"
         },
         {
-            "dpSrc": "/vercel.svg",
-            "storySrc": ["/next.svg", "/next.svg", "/next.svg", "/next.svg"],
-            "username": "name"
+            "dpSrc": "/dps/10.webp",
+            "storySrc": ["/stories/27.jpg", "/stories/28.jpg"],
+            "username": "Perry"
         }
     ]
 }

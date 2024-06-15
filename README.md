@@ -1,36 +1,31 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
-
-First, run the development server:
+## Application Setup
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/AgentJ08/stage-insta-stories.git
+cd stage-insta-stories
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Running The Application
+```bash
+npm run dev
+```
+The application would start running on [http://localhost:3000](http://localhost:3000).
+To get the mobile view, open developer tools of the browser and select the mobile dimensions.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Running The Tests
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Design Choices
+- Using two 1D arrays for storing views status, instead of a 2D array.
 
-## Learn More
+## Assumptions I Made
+- The loggedin user has atleast one story uploaded.
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The application is deployed on Vercel.
+Deployment Link: [https://stage-insta-stories-kappa.vercel.app/](https://stage-insta-stories-kappa.vercel.app/)
+Short Link: [https://bit.ly/ArpitStage](https://bit.ly/ArpitStage)
+You can directly open the link in your mobile device to get the mobile view, or open developer tools of your desktop browser and select the mobile dimensions.
