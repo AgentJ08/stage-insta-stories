@@ -1,6 +1,6 @@
 import { test, expect, devices } from '@playwright/test';
 
-const deploymentUrl = process.env.DEPLOYMENT_URL || 'http://localhost:3000';
+const deploymentUrl = 'https://stage-insta-stories-kappa.vercel.app';
 
 test('should have page title', async ({ page }) => {
     await page.goto(`${deploymentUrl}`);
