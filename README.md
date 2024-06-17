@@ -27,7 +27,7 @@ npx playwright show-report
 
 
 ## Design Choices
-- Using two 1D arrays for storing views status, instead of a 2D array.
+- Space Optimization: Using two 1D arrays for storing views status, instead of a 2D array to store view status of every story of every user.
 
 ## Assumptions I Made
 - The loggedin user has atleast one story uploaded.

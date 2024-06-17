@@ -1,24 +1,26 @@
 import { test, expect, devices } from '@playwright/test';
 
+const deploymentUrl = process.env.DEPLOYMENT_URL || 'http://localhost:3000';
+
 test('should have page title', async ({ page }) => {
-    await page.goto('http://localhost:3000');
+    await page.goto(`${deploymentUrl}`);
     await expect(page).toHaveTitle(/Stage Insta Stories/);
 });
 
 test('should render stories component on mobile devices', async ({ page }) => {
-    await page.goto('http://localhost:3000');
+    await page.goto(`${deploymentUrl}`);
     const storiesComponent = page.locator('.overflow-x-auto');
     await expect(storiesComponent).toBeVisible();
 });
 
 test('should render correct number of stories', async ({ page }) => {
-    await page.goto('http://localhost:3000');
+    await page.goto(`${deploymentUrl}`);
     const stories = page.locator('.overflow-x-auto > div');
     await expect(stories).toHaveCount(10);
 });
 
 test('should open a story on click', async ({ page }) => {
-    await page.goto('http://localhost:3000');
+    await page.goto(`${deploymentUrl}`);
     const story = page.locator('.overflow-x-auto > div').first();
     await story.click();
     const storyView = page.locator('.h-screen.w-screen');
@@ -26,7 +28,7 @@ test('should open a story on click', async ({ page }) => {
 });
 
 test('should navigate through stories', async ({ page }) => {
-    await page.goto('http://localhost:3000');
+    await page.goto(`${deploymentUrl}`);
     const story = page.locator('.overflow-x-auto > div').first();
     await story.click();
     const rightArrow = page.locator('.-mt-20 > div').nth(1);
@@ -38,7 +40,7 @@ test('should navigate through stories', async ({ page }) => {
 });
 
 test('should close story view', async ({ page }) => {
-    await page.goto('http://localhost:3000');
+    await page.goto(`${deploymentUrl}`);
     const story = page.locator('.overflow-x-auto > div').first();
     await story.click();
     const closeButton = page.locator('button:has-text("x")');
