@@ -16,6 +16,15 @@ The application would start running on [http://localhost:3000](http://localhost:
 To get the mobile view, open developer tools of the browser and select the mobile dimensions.
 
 ## Running The Tests
+```bash
+#Start the server first by running:
+npm run dev
+#Then in another terminal instance, run:
+npx playwright test
+#The test report can be viewed by running the command:
+npx playwright show-report
+```
+
 
 ## Design Choices
 - Using two 1D arrays for storing views status, instead of a 2D array.
