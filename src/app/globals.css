@@ -6,6 +6,10 @@
     display: none;
 }
 
+.dpClick{
+    animation: borderAnimation 500ms ease-in-out;
+}
+
 .progress{
     animation: animate 5s linear forwards;
 }
@@ -17,4 +21,16 @@
     100%{
         width: 100%;
     }
+}
+
+@keyframes borderAnimation{
+    0% {
+        border-width: 2px;
+      }
+      50% {
+        border-width: 3px;
+      }
+      100% {
+        border-width: 2px;
+      }
 }
